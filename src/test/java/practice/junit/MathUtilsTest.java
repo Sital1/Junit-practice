@@ -8,16 +8,20 @@ class MathUtilsTest {
 
     // lets junit know this is a test
     @Test
-    void test()
+    void testAdd()
     {
         MathUtils mathUtils = new MathUtils();
-
         int expected = 2;
         int actual = mathUtils.add(1, 1);
-
         // using assertion
         assertEquals(expected,actual,"The add method should add two numbers");
+    }
 
+    @Test
+    void testCircleArea()
+    {
+        MathUtils mathUtils = new MathUtils();
+        assertEquals(314.1592653589793,mathUtils.computeCircleArea(10),"Should return right circle area");
     }
 
 }

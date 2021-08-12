@@ -21,3 +21,7 @@ assertEqual():
 [Junit Assertion Docs](https://junit.org/junit5/docs/current/api/org.junit.jupiter.api/org/junit/jupiter/api/Assertions.html)
 
 Junit will give proper log output
+
+
+## Test Driven Methodology
+ - Write the test case before the code. If the test fails then refactor the code.
