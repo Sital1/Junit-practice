@@ -11,7 +11,7 @@ class MathUtilsTest {
     void testAdd()
     {
         MathUtils mathUtils = new MathUtils();
-        int expected = 2;
+        int expected = 1;
         int actual = mathUtils.add(1, 1);
         // using assertion
         assertEquals(expected,actual,"The add method should add two numbers");

@@ -22,6 +22,12 @@ assertEqual():
 
 Junit will give proper log output
 
+---
 
 ## Test Driven Methodology
  - Write the test case before the code. If the test fails then refactor the code.
+
+---
+## Maven Surefire Plugin
+
+ - Let you run maven to run junit tests.
